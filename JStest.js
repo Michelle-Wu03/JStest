@@ -127,12 +127,6 @@ function countWorkHoursADay(employees, employeeType){
     return workingHours;
 }
 
-const employeeType = [
-    {id: 1, "name": "FullTime", work_begin: "09:00:00", work_end: "17:00:00"},
-    {id: 2, "name": "MidTime", work_begin: "12:00:00", work_end: "21:00:00"},
-    {id: 3, "name": "HalfTime", work_begin: "20:00:00", work_end: "00:00:00"},
-];
-
 function getEmployees(){
     const employees = [
         {id: 1, name: "Alice", type: 2},
